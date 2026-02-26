@@ -1,77 +1,59 @@
-Professional Alignment GPT
-
+Professional Alignment/Analysis GPT
 Overview
+This repository defines a structured instruction architecture for a GPT-based assistant designed to evaluate professional role alignment through a systems and governance lens.
 
-This project defines a structured instruction architecture for a GPT-based assistant designed to evaluate professional alignment.
-
-Rather than generating résumé summaries or persuasive narratives, this system evaluates:
-• Operational scope and decision pressure
-• Governance clarity and authority boundaries
-• Systems maturity and organizational design
-• Structural leverage zones
-• Long-term execution sustainability
-
+Rather than generating résumé summaries or persuasive narratives, this framework evaluates:
+•	Operational scope and decision pressure
+•	Governance clarity and authority boundaries
+•	Systems maturity and execution architecture
+•	Structural leverage zones
+•	Long-term sustainability of impact
 The goal is to translate job descriptions into execution reality and map documented experience to structural fit.
-
-This is not a personality interpreter and not a promotional tool.
+This is not a personality interpreter and not a promotional tool.  
 It is a systems-level evaluation framework.
 
+Live Deployment
+A working instance of this GPT can be accessed here:
+
+👉 https://chatgpt.com/g/g-69a07c739d0081918a1971bb74cc402b-the-candidate 
+[Note: Access may require a ChatGPT account]
+
 Design Principles
-This GPT is built around the following constraints:
-  • Third-person analytical voice
-  • Evidence-based alignment (no invented experience)
-  • Structural framing (not personality framing)
-  • Governance lens over emotional lens
-  • Decision-right clarity
-  • Incentive transparency
-  • Planning rigor
-  • Organizational maturity
-  • Output Structure
+This GPT is built around five constraints:
+1.	Third-person analytical voice  
+2.	Evidence-based alignment (no invented experience)  
+3.	Structural framing (not personality framing)  
+4.	Governance lens over emotional interpretation  
+5.	Explicit prohibition on combative or defensive narratives  
+Descriptions / responses may include:
+•	Decision-right clarity
+•	Incentive transparency
+•	Planning rigor
+•	Organizational maturity
 
+Output Structure
 When provided a job description, the GPT produces analysis in the following order:
-
-• Role Translation:  Converts responsibilities into operational reality.
-• Alignment Mapping:  Maps documented strengths and execution history to role requirements.
-• Leverage Zones: Identifies where disproportionate impact is likely.
-• Structural Considerations:  Identifies environmental conditions influencing long-term effectiveness.
-• Clarifying Questions: Surfaces strategic questions regarding ownership, success metrics, and governance boundaries.
+1. Role Translation: Converts responsibilities into operational reality.
+2. Alignment Mapping: Maps documented strengths and execution history to role requirements.
+3. Leverage Zones: Identifies where disproportionate impact is likely.
+4. Structural Considerations: Identifies environmental conditions influencing long-term effectiveness.
+5. Clarifying Questions: Surfaces strategic questions regarding ownership, success metrics, and governance boundaries.
 
 Intended Use
-
 This framework is intended for:
-• Executive-level role evaluation
-• Director / VP-level role calibration
-• Structured interview preparation
-• Organizational maturity assessment
-
+•	Executive interview preparation
+•	Organizational maturity assessment
+•	Structured hiring conversations
 It is particularly effective in complex, cross-functional, or systems-heavy environments.
 
-Why This Exists
-
-Traditional hiring artifacts (résumés, cover letters) often compress operational nuance.
-
-This framework was designed to:
-• Preserve structural thinking
-• Surface execution architecture
-• Avoid defensive tone drift
-• Replace persuasion with governance clarity
-
-It treats role alignment as a systems design problem.
-
 Implementation
-
 This repository contains the system instruction set used to configure a Custom GPT inside the ChatGPT platform.
 
+
 To deploy:
+1. Create a new Custom GPT.
+2. Paste the instruction set from `system-instructions.md`.
+3. Upload supporting documentation (résumé, profile addendum, systems profile).
+4. Test against live job descriptions.
 
-Create a new Custom GPT
 
-Paste the provided instruction set
-
-Upload supporting documentation (résumé, profile, etc.)
-
-Test against live job descriptions
-
-License
-
-MIT (or whichever you prefer)
