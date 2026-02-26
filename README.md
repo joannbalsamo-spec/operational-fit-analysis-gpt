@@ -16,6 +16,7 @@ Live Deployment
 A working instance of this GPT can be accessed here:
 
 👉 https://chatgpt.com/g/g-69a07c739d0081918a1971bb74cc402b-the-candidate 
+
 [Note: Access may require a ChatGPT account]
 
 Design Principles
